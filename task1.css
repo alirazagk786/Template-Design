@@ -1,0 +1,158 @@
+@media (max-width: 900px) {
+
+    .container-fluid,
+    .carousel-inner {
+        height: 60vw !important;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid,
+.carousel-inner {
+    height: 90vh;
+}
+
+.col-12 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar {
+    z-index: 1000;
+    width: 100%;
+    background: transparent;
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+    color: black !important;
+}
+
+.nav-items-div {
+    width: 96%;
+    justify-content: end;
+
+}
+
+.nav-item,
+.dropdown-toggle {
+    color: black !important;
+}
+
+.navbar-nav {
+    justify-content: end;
+}
+
+.btn-secondary {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.nav-button {
+    color: black !important;
+    border: 1px solid black !important;
+    border-radius: 25px !important;
+}
+
+.dropdown-item {
+    color: black !important;
+}
+#dropdown-list{
+    text-align: center;
+    background-color:snow;
+}
+
+#carouselExampleControls {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.bg-content {
+    position: absolute !important;
+    top: 17vw;
+    left: 20vw;
+    background-color: currentColor;
+    padding: 1vw 0;
+    opacity: 62%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-content h6 {
+    color: white;
+    font-size: 2vw;
+}
+
+.bg-content h2 {
+    color: black;
+    font-size: 3vw;
+}
+
+.bg-content-button {
+    background-color: skyblue !important;
+    font-size: 1.5vw !important;
+    color: white !important;
+}
+
+.our {
+    color: blue;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+.services {
+    font-weight: 600;
+    font-size: 3vw;
+    padding: 0 1vw;
+}
+
+.span-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw !important;
+}
+
+.text {
+    justify-content: center;
+    display: flex;
+    color: lightgray;
+    font-size: 1.5vw;
+    margin-bottom: 4vw !important;
+}
+
+.card {
+    text-align: center;
+    border: none;
+    padding: 0px 25px !important;
+}
+
+.card i {
+    padding: 10px 0;
+    font-size: 3rem;
+    color: cadetblue;
+}
+
+.card p {
+    text-align: left;
+}
